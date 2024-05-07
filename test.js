@@ -1,6 +1,6 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 const details = () => ({
-    id: 'test_Github_grab',
+    id: 'test',
     Stage: 'Pre-processing',
     Name: 'testing to see if grabbibg the script from github will work',
     Type: 'Video',
