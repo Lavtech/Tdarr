@@ -1,4 +1,4 @@
-/ eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const plugin = (file, librarySettings, inputs, otherArguments) => {
   const lib = require('../methods/lib')();
   // eslint-disable-next-line @typescript-eslint/no-unused-vars,no-param-reassign
@@ -20,14 +20,14 @@ response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
 
 
   // Convert file if convert variable is set to true.
-// if ($original_container !== `.mkv`)
-//     response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
-//     response.processFile = true;
+if ($original_container !== `.mkv`)
+    response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
+    response.processFile = true;
 
-//   return response;
-// };
-}
+  return response;
+};
 
 
-// module.exports.details = details;
-// module.exports.plugin = plugin;
+
+module.exports.details = details;
+module.exports.plugin = plugin;
