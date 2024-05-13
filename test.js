@@ -20,7 +20,7 @@ response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
 
 
   // Convert file if convert variable is set to true.
-if ($original_container !== `.mkv`)
+//if ($original_container !== `.mkv`)
     response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
 //    response.processFile = true;
 
