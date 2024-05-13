@@ -12,7 +12,7 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
     reQueueAfter: true,
     infoLog: '',
   };
-original_container = `.${file.container}`,
+//original_container = `.${file.container}`,
 
 // Specific log to confirm the script is executing
 console.log("13421234243 This is the GitHubScript");
@@ -24,7 +24,7 @@ response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
     response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
 //    response.processFile = true;
 
-  return response;
+//  return response;
 };
 
 
