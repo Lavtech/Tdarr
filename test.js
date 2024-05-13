@@ -5,11 +5,11 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
   inputs = lib.loadDefaultValues(inputs, details);
   const response = {
     processFile: true,
-    // preset: '',
-    // handBrakeMode: false,
-    // container: `.mkv`,
-    // FFmpegMode: true,
-    // reQueueAfter: true,
+    preset: '',
+    handBrakeMode: false,
+    container: `.mkv`,
+    FFmpegMode: true,
+    reQueueAfter: true,
     infoLog: '',
   };
 //original_container = `.${file.container}`,
