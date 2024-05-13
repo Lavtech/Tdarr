@@ -16,12 +16,12 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
 
 // Specific log to confirm the script is executing
 console.log("13421234243 This is the GitHubScript");
-response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
+response.infoLog += ' 13421234243 This is the GitHubScript. \n';
 
 
   // Convert file if convert variable is set to true.
 //if ($original_container !== `.mkv`)
-//    response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
+    response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
 //    response.processFile = true;
 
 //  return response;
