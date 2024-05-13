@@ -12,6 +12,9 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
     reQueueAfter: true,
     infoLog: '',
   };
+// Specific log to confirm the script is executing
+console.log("13421234243 This is the GitHubScript");
+response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
 
   // Check if file is a video. If it isn't then exit plugin.
   if (file.fileMedium !== 'video') {
@@ -56,13 +59,6 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
   return response;
 };
 
-    // Specific log to confirm the script is executing
-    console.log("13421234243 This is the GitHubScript");
-    response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
-
-    // Returning the response object which Tdarr expects
-    return response;
-};
 
 
 module.exports.details = details;
