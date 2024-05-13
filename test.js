@@ -16,6 +16,9 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
       }
 
 
-      
+
 
 response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
+    };
+module.exports.details = details;
+module.exports.plugin = plugin;
