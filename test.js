@@ -7,7 +7,7 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
     processFile: false,
     preset: '',
     handBrakeMode: false,
-    container: `.mkv`,
+    container: `.${file.container}`,
     FFmpegMode: true,
     reQueueAfter: true,
     infoLog: '',
