@@ -1,7 +1,7 @@
 /// eslint-disable-next-line no-unused-vars
 const plugin = (file, librarySettings, inputs, otherArguments) => {
     const importFresh = require('import-fresh');
-    const library = importFresh('../methods/library.js');
+//    const library = importFresh('../methods/library.js');
     
       //Must return this object at some point
       const response = {
