@@ -15,8 +15,8 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
 //original_container = `.${file.container}`,
 
 // Specific log to confirm the script is executing
-    console.log("13421234243 This is the GitHubScript");
-    response.infoLog += ' 13421234243 This is the GitHubScript. \n';
+console.log("13421234243 This is the GitHubScript");
+response.infoLog += ' 13421234243 This is the GitHubScript. \n';
 
 
   // Convert file if convert variable is set to true.
