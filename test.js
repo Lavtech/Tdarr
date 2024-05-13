@@ -12,15 +12,16 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
     reQueueAfter: true,
     infoLog: '',
   };
+original_container = `.${file.container}`,
+
 // Specific log to confirm the script is executing
 console.log("13421234243 This is the GitHubScript");
 response.infoLog += '☒ 13421234243 This is the GitHubScript. \n';
 
 
   // Convert file if convert variable is set to true.
-
-    response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999 ${extraArguments}`;
-    response.infoLog += '☒File has image format stream, removing. \n';
+if ($original_container !== `.mkv`)
+    response.preset += `,-map 0 -c copy -max_muxing_queue_size 9999`;
     response.processFile = true;
 
   return response;
