@@ -25,5 +25,7 @@ const plugin = (file, librarySettings, inputs, otherArguments) => {
     // Returning the response object which Tdarr expects
     return response;
 };
+
+
 module.exports.details = details;
 module.exports.plugin = plugin;
